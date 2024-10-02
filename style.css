@@ -1,0 +1,12 @@
+body{
+    background-image: url("images/findyourniche.png");
+    background-size: 1360px 700px;
+}
+
+#next{
+    background-color: azure;
+    font-size:larger;
+    top: 300px;
+    left: 100px;
+}
+
