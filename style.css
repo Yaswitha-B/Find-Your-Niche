@@ -4,9 +4,10 @@ body{
 }
 
 #next{
-    background-color: azure;
-    font-size:larger;
-    top: 300px;
-    left: 100px;
+    font-size: 24px;
+    text-decoration: underline;
+    color: hsl(33, 46%, 13%);
+    position:absolute;
+    top: 450px;
+    left: 410px;
 }
-
