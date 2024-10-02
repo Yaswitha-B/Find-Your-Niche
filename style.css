@@ -1,0 +1,13 @@
+body{
+    background-image: url("images/findyourniche.png");
+    background-size: 1360px 700px;
+}
+
+#next{
+    font-size: 24px;
+    text-decoration: underline;
+    color: hsl(33, 46%, 13%);
+    position:absolute;
+    top: 450px;
+    left: 410px;
+}
