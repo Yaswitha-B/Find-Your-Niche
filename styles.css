@@ -1,0 +1,22 @@
+.fullstack{
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+}
+a{
+ font-size: 50px;
+
+}
+
+p{
+    text-align: left;
+}
+.description_div{
+ margin-left:35px;
+ margin-top: -50px;
+}
+.description{
+font-weight: bolder;
+font-style: none;
+color: brown;
+}
