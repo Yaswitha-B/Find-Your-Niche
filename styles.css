@@ -1,22 +1,196 @@
-.fullstack{
-    height: 400px;
-    width: 600px;
-    border-radius: 10%;
-}
-a{
- font-size: 50px;
-
+.image-container {
+    position: relative;              
+    width: 1350px;                   
+    height: 300px;              
 }
 
-p{
-    text-align: left;
+.background-image {
+    width: 100%;                    
+    height: 100%;                 
+    object-fit: cover;              
 }
-.description_div{
- margin-left:35px;
- margin-top: -50px;
+
+.overlay {
+    position: absolute;             
+    top: 0;                         
+    left: 0;                        
+    width: 100%;                    
+    height: 100%;                   
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;                   
+    display: flex;                  
+    flex-direction: column;        
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;    
+    font-size: 100px;        
 }
-.description{
-font-weight: bolder;
-font-style: none;
-color: brown;
+
+.fullstack_div{
+    
+        height: 300px;
+        width: 400px;
+        border: 3px solid #433878;
+        display: inline-block;
+        overflow: hidden;
+        text-align: center;
 }
+.fullstack_div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#full{
+    font-size: large;
+    color:#433878 ;
+    text-shadow: 2cm;
+    font-family: georgia;
+}
+.fu{
+    font-family: georgia;
+    background-color:#FFD7C4 ;
+}
+.dataanalyst_div img{
+    width: 100%;
+    height: 205px;   
+}
+.dataanalyst_div{
+    
+    height: 300px;
+    width: 400px;
+    border: 3px solid #433878;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+.da{
+    font-family: georgia;
+    background-color:#FFD7C4 ; 
+}
+#datas{
+    font-size: large;
+    color:#433878 ;
+    font-family: georgia;
+}
+
+.devOps_div{
+    
+    height: 300px;
+    width: 400px;
+    border: 3px solid #433878;
+    display: inline-block;
+    text-align: center;
+}
+
+#devO{
+    font-size: large;
+    color:#433878 ;
+    font-family: georgia;
+}
+
+.devOps_div img{
+    width: 100%;
+    height: 205px;   
+}
+
+.de{
+    font-family: georgia;
+    background-color:#FFD7C4 ; 
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 45px; 
+}
+.row1 a {
+    display: block;
+    text-align: center;
+}
+.row1 img {
+    width: 100%; 
+    height: 200px;
+}
+
+.row1{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.cloudcomputing_div{
+    
+    height: 300px;
+    width: 400px;
+    border: 3px solid #433878;
+    display: inline-block;
+    text-align: center;
+}
+
+#clouding{
+    font-size: large;
+    color:#433878 ;
+    font-family: georgia;
+}
+
+.cloudcomputing_div img{
+    width: 100%;
+    height: 205px;   
+}
+
+.cl{
+    font-family: georgia;
+    background-color:#FFD7C4 ; 
+}
+
+.artificial_div{
+    
+    height: 300px;
+    width: 400px;
+    border: 3px solid #433878;
+    display: inline-block;
+    text-align: center;
+}
+
+#AI{
+    font-size: large;
+    color:#433878 ;
+    font-family: georgia;
+}
+
+.artificial_div img{
+    width: 100%;
+    height: 205px;   
+}
+
+.ar{
+    font-family: georgia;
+    background-color:#FFD7C4 ; 
+}
+
+.cyber_div{
+    
+    height: 300px;
+    width: 400px;
+    border: 3px solid #433878;
+    display: inline-block;
+    text-align: center;
+}
+
+#cyber{
+    font-size: large;
+    color:#433878 ;
+    font-family: georgia;
+}
+
+.cyber_div img{
+    width: 100%;
+    height: 205px;   
+}
+
+.cy{
+    font-family: georgia;
+    background-color:#FFD7C4 ; 
+}
+
+
+
+
