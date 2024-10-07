@@ -51,6 +51,7 @@ The following code is for scrollable content
 .scrollable_content{
     margin-top: 7vh;
     overflow-y: auto;
+    background-color: hsl(180, 88%, 97%);
 }
 
 .name{
@@ -64,7 +65,44 @@ The following code is for scrollable content
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .name h1{
     font-size: 90px;
+}
+
+.contents{
+    background-color: #cff3f3;
+    min-width: 310px;
+    max-width: 900px;
+    margin: 70vh auto;
+    overflow-y: auto;
+}
+
+.description {
+    margin: auto;
+    padding: 5%;
+}
+
+.skillset{
+    margin: auto;
+    padding: 5%;
+}
+
+.skill_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vh, 1fr));
+    grid-gap: 30px
+}
+
+.skill{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 20px;
+    height: 30vh;
+    width: 20vh;
 }
