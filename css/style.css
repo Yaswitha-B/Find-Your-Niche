@@ -1,13 +1,61 @@
 body{
-    background-image: url("../images/findyourniche.png");
-    background-size: 1360px 700px;
+    background-color: black;         
 }
 
-#next{
-    font-size: 24px;
-    text-decoration: underline;
-    color: hsl(33, 46%, 13%);
+.img_div
+{
+    margin: 30px 6rem 30px 6.3rem
+}
+.find_image {
+    margin: 20;
+    padding: 2px 20px 20px 9%;
+    border-radius: 40%;
+    align-content: space-between;
+    filter: drop-shadow(0 -8px 3rem rgba(17, 13, 147, 0.8));
+    transition: transform .1s;
+}
+.left_div {
+    color: aliceblue;
+    margin: 6rem 65px 30px 60px;
+    align-items: center;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+.niche{
+    display: flex;
+
+
+}
+.left_div h1{
+    font-size: 4.6rem;
+    margin-bottom: 20px;
+}
+.left_div h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 20%;
+    top: 51%;
+    letter-spacing: 0.2rem;
+    opacity: 0.7;
+
+}
+.left_div a {
+    color: azure;
+    border: 2px blue solid;
+    text-decoration: none;
+    padding: 13px;
     position:absolute;
-    top: 450px;
-    left: 410px;
+    top: 430px;
+    right: 320px;
+    border-radius: 20px;
+    box-shadow: 3px 0px  28px blue
+}
+
+.left_div a:hover{
+    box-shadow: 3px 0px  28px white;
+    border: 2px white solid;
+}
+.find_image:hover{
+    filter: drop-shadow(0 -8px 3rem rgba(14, 10, 151, 1));
+    transform: scale(0.96);
 }
