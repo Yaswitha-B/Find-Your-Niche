@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:hwb(201 53% 41%);
     padding: 0;
     margin: 0;
     font-family: "Antic Didone", serif;
@@ -7,23 +7,20 @@ body{
     box-sizing: border-box;
 }
 .category{
+    position: relative;
+    top: 100vh;
     padding: 50px 0;
 }
 .wrapper{
     padding: 10px 11%;
 }
-.main_image {
-    position: relative;              
-    width: 1350px;                   
-    height: 300px;              
-}
-.background-image{
-    width: 100%;                    
-    height: 50%;                 
-    object-fit: cover;       
-    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 68%);
-    overflow: hidden;
-           
+.main_img {
+    background-image: url("../images/select_your_choice.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;          
+    width: calc(100%);       
+    height: 100vh;                          
 }
 
 #card_area{
@@ -31,7 +28,6 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
-
 
 }
 .card{
@@ -44,7 +40,7 @@ body{
 }
 .card img{
     width: 100%;
-    /*height: 45vh;*/
+    height: 45vh;
     border-radius: 3px;
     display: block;
     transition: transform 0.5s;
