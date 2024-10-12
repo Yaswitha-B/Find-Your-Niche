@@ -14,6 +14,7 @@ body{
 .wrapper{
     padding: 10px 11%;
 }
+
 .main_img {
     background-image: url("../images/select_your_choice.jpg");
     background-size: cover;
@@ -94,7 +95,7 @@ body{
     transform: scale(1.1);
 }
 .card:hover .overlay{
-    height: 60%;  /* 220px = 34.81vh */
+    height: 60%;  
     background-color: black 0.9;
 }
 
