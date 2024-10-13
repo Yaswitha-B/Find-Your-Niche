@@ -14,7 +14,7 @@ The following css code for navigation bar
 }
 
 .menu_contents{
-    color: white;
+    color:white;
     position: absolute;
     top: 0px;
     left: 40px;
@@ -56,7 +56,7 @@ The following code is for scrollable content
 .scrollable_content{
     margin-top: 7vh;
     overflow-y: auto;
-    background-color: hsl(180, 88%, 97%);
+    background-color:rgb(232, 210, 232);
 }
 
 #name{
@@ -79,8 +79,8 @@ The following code is for scrollable content
 }
 
 .contents{
-    box-shadow: #cff3f3;
-    background-color:rgb(174, 96, 174);
+    box-shadow:rgb(231, 173, 231);
+    background-color:rgb(231, 173, 231);
     min-width: 310px;
     max-width: 900px;
     margin: 70vh auto 0;
@@ -126,7 +126,7 @@ The following code is for scrollable content
     padding: 2%;
     border: 2px solid black;
     border-collapse: collapse;
-    background-color:rgb(217, 154, 154);
+    background-color:rgb(232, 210, 232);
     text-align: center;
 }
 
