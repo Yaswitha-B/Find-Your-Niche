@@ -12,20 +12,40 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 <body>
-        <div class="container">
-             <div class="niche">
-                <div class="img_div">
-                    <img src="https://res.cloudinary.com/dv1cjngnl/image/upload/v1728399508/59a5ce0a98a8b305007240dd7bbb1b0b_parjs5.jpg" height="560px" width="382px" class="find_image">
-                </div>
-                <div class="left_div">
-                    <h1>Find your Niche</h1>
-                    <h5>Live Your Passion</h5>
-                    <a id="next" href="#card_area">Ready To Dive In?</a>
+    <nav>
+        <div class="nav_content">
+            <div class="logo"><a href="">Find your Niche</a> </div>
+            <label for="check" class="checkbox">
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li><a href="">Categories</a> </li>
+                <li><a href="">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <h1 class="title">Find Your Niche</h1>
+                <h5 class="subtitle">Live your passion</h5>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore optio est impedit tempora libero aliquam obcaecati pariatur earum quasi, excepturi nesciunt ad sapiente quam eaque sit odio consequatur dignissimos?</p>
+                <div class="action_btn">
+                    <button class="ready"><a href="#card_area">Ready To Dive In?</a> </button>
                 </div>
             </div>
+            <div class="image">
+                <img src="https://res.cloudinary.com/dv1cjngnl/image/upload/v1728838296/picture_dkcd5t.png">
+            </div>
         </div>
+    </section>
     <div class="category">
         <div class="wrapper">
             <div id="card_area">
@@ -42,7 +62,7 @@
                     <img src="https://res.cloudinary.com/dv1cjngnl/image/upload/v1728626701/digital-techno-background-with-connecting-lines-dots_1048-6291_zyjyuq.jpg">
                     <div class="overlay">
                         <h3 >Block chain technology</h3>
-                        <a href="subcategory_template.html">View Details</a>
+                        <a href="blockchain.html">View Details</a>
                     </div>
                 </div>
     
@@ -77,7 +97,7 @@
                 <div class="card">
                     <img src="https://res.cloudinary.com/dv1cjngnl/image/upload/v1728627881/financial-expert-examining-economic-situation-online_482257-103402_wnwhli.jpg">
                     <div class="overlay">
-                        <h3>Data Analysis</h3>
+                        <h3>Data Analyst</h3>
                         <a href="DataAnalyst.html">View Details</a>
                     </div>
                 </div>
@@ -85,6 +105,6 @@
         </div>
     </div>
 
-=
+
 </body>
 </html>
