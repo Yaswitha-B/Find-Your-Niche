@@ -192,8 +192,8 @@ ul li a:hover{
 #card_area{
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 70px;
 
 }
 .card{
