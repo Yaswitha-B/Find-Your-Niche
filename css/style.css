@@ -1,17 +1,10 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #dee2e6;
 }
 
-:root{
-    --primary-color:#a855f7;
-    --primary-color-dark: #9333ea;
-    --secondary-color: #ca8a04;
-    --text-dark: #1f2937;
-    --text-light:#6b7280;
-    --extra-light:#faf5ff;
-    --max-width:1200px;
-}
+
 *{
     padding: 0;
     margin: 0;
@@ -27,9 +20,10 @@ nav{
     left: 0;
     background-color: #ffffff;
     z-index: 99;
+    font-family: "Bruno Ace SC", sans-serif;
 }
 .nav_content{
-    max-width: var(--max-width);
+    max-width: 1200px;
     margin: auto;
     padding: 1.2rem 1rem;
     display: flex;
@@ -40,7 +34,8 @@ nav{
 nav .logo a{
     font-size:  1.5rem;
     font-weight: 800;
-    color: var(--primary-color);
+    letter-spacing: 2px;
+    color: rgba(78, 0, 97, 0.852);
     transition: .3s;
 }
 nav .logo a:hover{
@@ -54,7 +49,7 @@ nav input{
 }
 nav .checkbox span{
     font-size: 2rem;
-    color: var(--primary-color);
+    color: #a855f7;
     cursor: pointer;
 }
 ul{
@@ -69,17 +64,17 @@ ul li a{
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: 600;
-    color: var(--text-dark);
+    color: #1f2937;
     transition: .3s;
 }
 ul li a:hover{
-    border-top-color: var(--secondary-color);
-    border-bottom-color: var(--secondary-color);
-    color: var(--secondary-color);
+    border-top-color: #ca8a04;
+    border-bottom-color: #ca8a04;
+    color: #ca8a04;
 }
 
 .section{
-    background-color: #bf8eec63
+    background-color: #dee2e6;
 }
 .section_container{
     min-height: 100vh;
@@ -98,22 +93,23 @@ ul li a:hover{
 }
 .subtitle{
     letter-spacing: 2px;
-    color: var(--text-light);
-    margin-bottom: .5rem;
+    color: rgb(75, 77, 81);
+    margin-bottom: .9rem;
+    margin-top: .3rem;
     font-size: 28px;
 }
 
 .title{
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 500;
     line-height: 3rem;
-    color: var(--text-dark);
     margin-bottom: 1rem;
 }
 .description{
-    line-height: 1.5rem;
-    color: var(--text-light);
+    line-height: 1.4rem;
+    color: #555a64;
     margin-bottom: 2rem;
+    font-size: 21px;
 }
 .action_btn button{
     font-size: 1rem;
@@ -121,20 +117,21 @@ ul li a:hover{
     letter-spacing: 2px;
     padding: .8rem .5rem;
     outline: none;
-    border :2px solid var(--primary-color);
+    border :2px solid #adb5bd;
     border-radius: 10px;
     transition: .3s;
     cursor: pointer;
 }
 .action_btn a{
     text-decoration: none;
+    color: black;
 }
 .ready{
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #adb5bd;
+    color: black;
 }
-.ready.hover{
-    background-color: var(--primary-color-dark);
+.ready:hover{
+    box-shadow: 2px 0px 23px black;
 }
 .image{
     display: grid;
@@ -154,7 +151,7 @@ ul li a:hover{
         height: calc(100vh - 85px);
         left: -100%;
         top: 85px;
-        background-color: var(--extra-light);
+        background-color: #dee2e6;
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
@@ -178,11 +175,8 @@ ul li a:hover{
         margin: auto;
     }
 }
-
-
 .category{
-    padding: 30px 20px;
-
+    padding: 40px 30px;
 }
 .wrapper{
     padding: 20px 21%;
