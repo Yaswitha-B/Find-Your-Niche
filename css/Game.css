@@ -31,8 +31,9 @@ The following css code for navigation bar
     padding: 13px 30px;
 }
 .menu_contents a:hover{
-    color: cadetblue;
+    color:rgb(232, 210, 232);
 }
+
 
 #about{
     position: absolute;
