@@ -21,7 +21,6 @@ The following css code for navigation bar
    display: flex;
    justify-content: space-between;
    justify-items: center;
-   
    flex-wrap: wrap;
 }
 
@@ -30,7 +29,6 @@ The following css code for navigation bar
    color: white;
    font-size: 20px;
    padding: 13px 30px;
-   justify-content: space-between;
 }
 .menu_contents a:hover{
    color: #FFD8A9;
