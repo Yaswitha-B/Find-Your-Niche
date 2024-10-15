@@ -28,7 +28,7 @@ The following css code for navigation bar
     padding: 13px 30px;
 }
 .menu_contents a:hover{
-    color: cadetblue;
+    color:#ebc6e3;
 }
 
 #about{
@@ -57,8 +57,8 @@ The following code is for scrollable content
 }
 
 #name{
-    background-image: url("placeholder_bg.jpeg"); 
-    background-position: center;
+    background-image: url("../images/web_bg.png"); 
+    background-position: bottom;
     background-size: cover;
     position: absolute;
     top: 7vh;
